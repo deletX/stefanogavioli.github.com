@@ -1,0 +1,38 @@
+{% assign data=include.data %}
+
+<div class="main-point" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back">
+    <div class="main-point-header" id="main-point-header-{{include.name | slugify}}">
+        <img src="/assets/img/larrow.webp"/>
+        <h1>{{include.name}}</h1>
+    </div>
+    {% for element in data %}
+    <div class="sub-point">
+        <div class="sub-point-header">
+            <img src="/assets/img/larrow-small.webp"/>
+            <h2>{{element.name}} / </h2>
+            <p>{{element.init}} - {{element.end}}</p>
+        </div>
+        <div class="sub-point-content">
+            <h3 class="sub-point-content-at">{{element.at}}</h3>
+            <p class="sub-point-content-short">{{element.short}}</p>
+
+            <div class="sub-point-content-list">
+                <ul class="collapsible">
+                    <li class="active">
+                        <div class="collapsible-header">Conoscenze:
+                        </div>
+                        <div class="collapsible-body">
+                            <ul>
+                                {% for item in element.learnt %}
+                                <li>{{item.name}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

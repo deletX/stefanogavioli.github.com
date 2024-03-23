@@ -1,0 +1,501 @@
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  color: white;
+  background-color: #064c9c;
+  border-color: #064c9c;
+  border-radius: 50%;
+  padding: 29px 7px;
+  line-height: 0.05;
+    z-index:1000;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+.back-to-top > i {
+  font-size: 36pt;
+
+}
+
+.header {
+  background-color: #2D71B8;
+  color: black;
+  height: 100%;
+  width: 290px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.site-pic{
+  width:100px;
+}
+
+.name-and-pic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.contact :hover {
+  color: #AAAAAA;
+  text-decoration: none;
+  transition: 0.3s;
+  fill: #AAAAAA;
+}
+
+.name {
+  margin-top: 30px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  color: #050B10;
+  font-weight: 500;
+  font-size: 22pt;
+  width: 230px;
+  //margin-bottom: 10vh;
+}
+
+.name h1 {
+  font-weight: 700;
+  font-size: 22pt;
+  display: inline-block;
+}
+
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #050B10;
+}
+
+.menu a:visited {
+  color: #050B10;
+}
+
+
+.menu a:hover {
+  color: #AAAAAA;
+  transition: 0.3s
+}
+
+#current-link {
+  color: #AAAAAA;
+
+  :visited {
+    color: #AAAAAA;
+  }
+}
+
+
+.contact-list-container {
+  color: white;
+  width: 200px;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
+  z-index: -1;
+}
+
+.contact-me-and-motto-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 163px;
+  position: relative;
+
+}
+
+.motto {
+  margin-bottom: 50px;
+  line-height: 1em;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  font-size: 16pt;
+}
+
+.contact-me {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: -10px;
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+}
+
+.contact-list {
+  margin-top: 10px;
+  color: #AAAAAA;
+  font-size: 8px;
+  margin-left: -10px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-content: baseline;
+
+}
+
+.contact-list-container * {
+  font-size: 16pt;
+}
+
+.privacypolicy{
+  position: relative;
+  left: calc(50% - 58.92px + 15px);
+  margin-top:10px;
+}
+
+.privacypolicy > a{
+  color: inherit;
+  text-decoration: none;
+  font-size: 8pt;
+}
+
+.privacypolicy > a:visited{
+  color:inherit;
+}
+
+.contact-pic {
+  width: 20px;
+  margin-top:8px;
+}
+
+
+label {
+  font-size: 15px;
+}
+
+.main {
+  margin-left: calc(275px + 20px);
+  margin-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: calc(100% - 295px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.insidemain {
+  width: 66%
+}
+
+.sub-point-post {
+  //margin-left: 4vw;
+  margin-bottom: 5vh;
+}
+
+.post-ending {
+  width: calc(100% - 40px);
+  position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px
+}
+
+.sub-point-header-post > h2, .sub-point-header > a {
+  font-size: 15pt;
+  color: #054C9C;
+}
+
+.sub-point-header-post > h2, .sub-point-header > p {
+  position: relative;
+  top: 8px;
+}
+
+.sub-point-header-post > img {
+  width: 40px;
+}
+
+.sub-point-header-post {
+  color: #2D71B8;
+  font-size: 14pt;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post-title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 14px;
+  color: #054C9C;
+  font-size: 15pt
+}
+
+.post-title > h2 {
+  font-size: 16pt;
+}
+
+.post-title:link, .post-title:visited {
+  color: #054C9C;
+  text-decoration: none;
+}
+
+.post-title:hover, .post-title:active {
+  color: #054C9C;
+  text-decoration: underline;
+}
+
+
+.post-excerpt {
+  color: #050B10;
+}
+
+
+.leggidipiu:link, .leggidipiu:visited {
+  color: #050B10;
+  text-decoration: none;
+}
+
+.leggidipiu:hover, .leggidipiu:active {
+  color: #050B10;
+  text-decoration: underline;
+}
+
+.collapsible {
+  margin-right: 2vh;
+  box-shadow: none;
+
+}
+
+.main-point-header {
+  margin-bottom: 2vh;
+}
+
+.main-point-header > h1 {
+  font-size: 25pt;
+  color: #050B10;
+  position: relative;
+  top: 8px;
+}
+
+.main-point-header > img {
+  height: 50px;
+}
+
+.main-point-header > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sub-point {
+  margin-left: 4vw;
+  margin-bottom: 5vh;
+}
+
+.sub-point-header > h2, .sub-point-header > a {
+  font-size: 15pt;
+  color: #054C9C;
+}
+
+.sub-point-header > h2, .sub-point-header > p {
+  position: relative;
+  top: 8px;
+}
+
+.sub-point-header > img {
+  width: 40px;
+}
+
+.sub-point-header {
+  color: #2D71B8;
+  font-size: 14pt;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sub-point-header > * {
+  display: inline-block;
+  align-items: baseline;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.sub-point-content > h3 {
+  font-size: 14pt;
+}
+
+.sub-point-content > p {
+  margin-bottom: 2em;
+}
+
+.sub-point-content {
+  margin-left: 40px;
+}
+
+
+.collapsible-header {
+  background-color: transparent;
+}
+
+
+.sub-point-bar-container {
+  display: flex;
+  vertical-align: baseline;
+  line-height: 2em;
+  min-height: 60px;
+  margin-top: 5px;
+}
+
+.sub-point-bar-name {
+  width: 50%;
+  max-width: 300px;
+  line-height: normal;
+  height: auto;
+  float: left;
+}
+
+.data-bar {
+  height: 100%;
+}
+
+.ldBar {
+  float: left;
+}
+
+.ldBar > * {
+  float: left;
+}
+
+.ldBar path.mainline {
+  stroke-width: 20px;
+  stroke: #2D71B8;
+  stroke-linecap: round;
+}
+
+.ldBar path.baseline {
+  stroke-width: 14pt;
+  stroke-linecap: square;
+  stroke-opacity: .5;
+}
+
+.ldBar-label {
+  margin-top: 20px;
+}
+
+.collapsible-body li {
+  margin-bottom: 0.5em;
+}
+
+.collapsible-body li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #2D71B8; /* Change the color */
+  font-weight: bolder; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -2em; /* Also needed for space (tweak if needed) */
+
+}
+
+.collapsible-body ul {
+  list-style: none;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 13pt;
+  color: #050B10;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
+
+.column-left {
+  min-width: 305px;
+  max-width: 48%;
+  float: left;
+}
+
+.column-right {
+
+  min-width: 305px;
+  max-width: 48%;
+  float: left;
+
+}
+
+
+.first-line-thin {
+  margin-left: 5%;
+  height: 100%;
+  display: flex;
+  color: #050B10;
+  font-weight: 500;
+  font-size: 13pt;
+  //margin-bottom: 10vh;
+}
+
+.first-line-thin h1 {
+  font-weight: 700;
+  font-size: 13pt;
+  display: inline;
+}
+
+
+.first-line-container-thin {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto 0;
+}
+
+.first-line-container-thin * {
+  margin: 10px;
+}
+
+
+hr {
+  opacity: 0.275;
+}
+
+
+img {
+  max-width: 300%;
+}
+
+.parallax-container{
+  height:300px;
+  margin-bottom:1em;
+
+}
+
+.parallax-container img {
+  max-width: 200%;
+
+}
+
+strong{
+  font-weight: bold;
+}

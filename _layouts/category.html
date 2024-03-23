@@ -1,0 +1,9 @@
+---
+layout: page
+---
+<h1>#{{ page.tag }} category</h1>
+<hr style="margin-top:20px;margin-bottom: 20px">
+
+{% for post in site.categories[page.tag] %}
+    {% include post_preview.html post=post %}
+{% endfor %}

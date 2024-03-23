@@ -1,0 +1,23 @@
+{
+  "elements": [
+    {
+      "name": "JavaScript",
+      "value": 67
+    },
+    {
+      "name": "C/C++",
+      "value": 82
+    },
+    {
+      "name": "Python",
+      "value": 80
+    },
+    {
+      "name": "Java",
+      "value": 70
+    }
+  ],
+  "learnt": [
+    "Computer Vision","Machine Learning","Django","React","SQL","Project Management","PLC","..."
+  ]
+}

@@ -1,0 +1,55 @@
+<script>
+    $(document).ready(function () {
+        $('#menu').find('[href]').each(function () {
+            if (this.href === window.location.href || (this.href.split("/")[3] === "blog" && window.location.href.split("/")[3]==="blog" && window.location.href.split("/")[4]!== undefined)) {
+                $(this).attr("id", "current-link");
+            }
+        });
+    });
+</script>
+
+<div class="header">
+    <div class="name-and-pic-container">
+        <img style="min-width:100px;min-height:100px" alt="stefano-pic"
+             class="site-pic" src="/assets/img/{{include.pic}}">
+        <div class="name">
+            <h1>{{include.name}}</h1> <span>{{include.surname}}</span>
+        </div>
+    </div>
+    <div class="contact-list-container">
+        <div class="contact-me-and-motto-container">
+            <div class="motto">
+                <span style="font-family: 'Cedarville Cursive', cursive;">
+                    Whatever you do, <br> do it well
+                </span>
+            </div>
+            <div class="contact-me">
+                <hr>
+                <span style="font-size:13pt;margin-left:20px">
+                Contact me
+            </span>
+                <hr>
+            </div>
+        </div>
+        <div class="contact-list">
+            <span>-</span>{% for contact in site.data.contacts %}
+            <span>&nbsp;</span><a class="contact" href="{{contact.link}}">
+            <svg xmlns="http://www.w3.org/2000/svg" class="contact-pic" viewBox="0 0 24 24" fill="white">
+                <path d="{{contact.path}}"/>
+            </svg>
+        </a><span>&nbsp;-</span>
+            {% endfor %}
+        </div>
+        <div class="privacypolicy" style="color:#245d96;font-size:8pt;font-weight: bolder;font-family: 'Syncopate', sans-serif;width:120px">
+            <a href="/privacypolicy"> PRIVACY POLICY</a>
+        </div>
+    </div>
+    <div class="menu" id="menu">
+        <ul>
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/curriculum" class="">Curriculum</a></li>
+            <li><a href="/blog/" class="">Blog</a></li>
+        </ul>
+    </div>
+
+</div>

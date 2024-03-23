@@ -1,0 +1,23 @@
+- name: SW ENGINEER INTERN
+  init: 2020
+  end: 2021
+  at: Swisslog Italia
+  short: Confronto e prototipazione di tecnologie di Business Intelligence (PowerBI ed ELK) all'interno di un prodotto software di gestione di magazzini automatizzati (SynQ) per la tesi magistrale.
+  learnt:
+    - name: PowerBI
+    - name: Elasticstack (Elasticsearch, Logstash, Kibana)
+    - name: Business Intelligence
+
+- name: SW ENGINEER INTERN
+  init: 2018
+  end: 2019
+  at: Swisslog Italia
+  short: Aiutato nello sviluppo di un grosso progetto in un team di 5-10 persone
+  learnt:
+    - name: Logistics
+    - name: J2EE
+    - name: Weblogic
+    - name: JUnit
+    - name: JPA
+    - name: JCOMs
+    - name: WMS

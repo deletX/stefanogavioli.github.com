@@ -1,0 +1,27 @@
+---
+layout: page
+---
+<h1>{{page.title}}</h1>
+<h6><a href="/blog/">Blog</a> > {{page.title}}</h6>
+<hr style="margin-bottom:20px; margin-top:20px">
+{{content}}
+
+<hr style="margin-bottom:20px; margin-top:20px">
+<div class="post-ending">
+    <div class="signature-and-date" style="align-items: baseline">
+        <img src="/assets/img/firma.svg"
+             alt="Stefano Gavioli"
+             style="margin-right: 20px;min-width:200px; max-width:275px; width:28%;"
+        />
+        <span style="white-space:nowrap">
+          {{page.date | date_to_long_string}}
+        </span>
+    </div>
+    <br>
+    <span style="">
+  Categories:
+  {% for category in page.categories %}
+   - <a href="/category/{{ category }}">#{{category}}</a>
+  {% endfor %} -
+</span>
+</div>

@@ -1,0 +1,33 @@
+- name: BACHELOR DEGREE
+  init: 2015
+  end: 2018
+  at: Università degli studi di Modena e Reggio Emilia.
+  short: Computer Engineering
+  learnt:
+    - name: C
+    - name: Java
+    - name: Python
+    - name: Elementi di progettazione del software e design patterns
+    - name: SQL
+    - name: Unix e bash scripting
+    - name: Reti di Calcolatori
+    - name: Elementi di Elettronica
+    - name: Elementi di Economia ed Organizzazione Aziendale
+  thesis: <i>Machine Learning for Entity Resolution </i>
+
+- name: MASTER DEGREE
+  init: 2018
+  end: adesso
+  at: Università degli studi di Modena e Reggio Emilia
+  short: Computer Engineering - <i> Intelligent Cyber Systems </i>
+  learnt:
+    - name: Progettazione del Software (GANTT,CPM, FP, Agile methods, XP, SCRUM)
+    - name: Machine Learning (Supervised, Unsupervised, Reincofrment)
+    - name: C++
+    - name: JavaScript (Jquery, React, React Native, Node.js)
+    - name: Django
+    - name: Cloud Services
+    - name: Gestione ed Organizzazione d'Impresa
+    - name: Sicurezza Informatica
+    - name: Sistemi distribuiti
+    - name: Computer Vision, image processing and deep networks
