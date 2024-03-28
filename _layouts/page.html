@@ -1,10 +1,15 @@
 ---
-layout: simple
+layout: with_header
 ---
 <div class="main">
-    <div class="insidemain">
+    
+    {% include menu.html%}
+    
+    <div class="content">
         {{content}}
     </div>
 </div>
+<!--
 <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"><i class="material-icons md-48">keyboard_arrow_up</i></a>
 <script src="/assets/js/script.js" type="text/javascript"></script>
+-->

@@ -28,7 +28,3 @@ It's a Blog!
 
 (I am just adding stuff so you can enjoy the parallax of the images above)
 <br><br><br><br>
-<img src="/assets/img/firma.svg"
-         alt="Stefano Gavioli"
-         style="margin-right: 20px;min-width:200px; max-width:275px; width:28%;"
-    />
