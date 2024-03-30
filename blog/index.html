@@ -6,7 +6,7 @@ layout: page
 <hr style="margin-top:20px;margin-bottom:20px">
 
 {% if site.posts.size > 0 %}
-    There are {{paginator.posts | size}} posts:
+    There are {{site.posts | size}} posts:
 
     <ul>
     {% for post in site.posts %}

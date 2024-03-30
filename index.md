@@ -9,11 +9,7 @@ This is my website! It It has been made with **jekyll**, a good ammount of time,
 
 <div 
     style="background-image:
-           url('/assets/img/code-background.webp'); 
-    background-size:100% ;       
-    width:100%; 
-    height: 400px; 
-    background-position:center;"></div>
+           url('/assets/img/code-background.webp'); " class="responsive_image"></div>
 ## What is this all about?
 I have come across personal website in the past and always found them fascinating! As a computer engineer I could not resist the temptation to tinker around and build my own.
 
@@ -28,11 +24,7 @@ For instance you ~~can~~ **must** see the videos I made of my journeys around th
  
 <div 
     style="background-image:
-           url('/assets/img/tree2.webp'); 
-    background-size:100% ;       
-    width:100%; 
-    height: 400px; 
-    background-position:center;"></div>
+           url('/assets/img/tree2.webp');" class="responsive_image"></div>
 ## What about the Blog
 It's a Blog!
 

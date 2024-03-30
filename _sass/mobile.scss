@@ -1,313 +1,46 @@
-@media screen and (max-width: 905px) {
-  .insidemain {
-    width: calc(100% - 40px);
-  }
-}
-
 @media screen and (max-width: 740px) {
   .header {
-    padding-top: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 430px;
+    height: 50%;
     width: 100%;
-    position: absolute;
-    top: 0;
+    flex-direction: column;
   }
 
   .name {
     margin-top: 5px;
+    margin-left: 0px;
   }
 
+  .site-pic{
+    height:100px;
+    transform: rotate(180deg)
+  }
 
-  .contact-list-container {
-    width: 100%;
-    position: absolute;
-    bottom: 30px;
-    right: 0px;
-    display: flex;
+  .name-and-pic-container{
+    justify-content: flex-start;
     flex-direction: column;
-    align-content: baseline;
+    align-items:flex-start;
+    width: 100%;
+    height:80%;
   }
 
-  .contact-me-and-motto-container {
-    width: calc(100% - 100px);
-    display: flex;
+  .main{
+    height:100%;
     flex-direction: column;
-    justify-content: space-between;
-    height: 163px;
-    position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
-    //left: 100px;
   }
 
-  .motto {
-    margin-bottom: 50px;
-    width: 200px;
-    position: absolute;
-    right: 0;
-    top: 20px;
-  }
-
-  .contact-me {
-    margin-left: 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-me > hr {
-    width: 100%;
-  }
-  .contact-me > span {
-    margin-right: 12px;
-  }
-
-  .contact-list {
-    width: 300px;
-    margin-left: 0;
-    position: relative;
-    left: calc(50% - 150px);
-
-  }
-
-  .main {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 430px;
-  }
-  .insidemain {
-    width: 66%;
-  }
-}
-
-@media screen and (max-width: 605px) {
-  .insidemain {
-    width: calc(100% - 40px);
-  }
-  .main {
-    padding-top: 20px;
-  }
-}
-
-
-@media screen and (max-width: 450px) {
-
-  .header {
-    padding-top: 15px;
-    height: 385px;
-  }
-
-  .menu {
-    margin-top: 15px;
-  }
-
-  .motto {
-    top: 30px;
-  }
-
-  .contact-list-container {
-    bottom: 15px;
-  }
-
-  .contact-list-container * {
-    font-size: 14pt;
-  }
-
-  .contact-me {
-    height: 35px;
-  }
-
-  .contact-pic {
-    width: 16px;
-  }
-
-  .sub-point-header-post > img {
-    width: 30px;
-  }
-
-  .main-point-header {
-    margin-bottom: 0;
-  }
-
-  .main-point-header > img {
-    height: 40px;
-    margin-top: 7px;
-  }
-
-  .main-point-header > h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .sub-point-header > img {
-    width: 25px;
-    margin-top: 7px;
-  }
-
-  .sub-point-header > h2, .sub-point-header > p {
-    font-size: 13pt;
-    margin-bottom: 8px;
-  }
-
-  .sub-point-content > p {
-    margin-bottom: 1em;
-  }
-
-  .sub-point-header > h2.interessi-h2 {
-    font-size: 13pt;
-  }
-
-
-  .sub-point-content {
-    margin-left: 40px;
-  }
-
-  .collapsible-body {
-    padding: 1rem;
-  }
-
-  .main {
-    margin-top: 385px;
-  }
-
-  h1 {
-    font-size: 24pt;
-  }
-  h2 {
-    font-size: 22pt;
-  }
-  h3 {
-    font-size: 20pt;
-  }
-  h4 {
-    font-size: 18pt;
-  }
-  h5 {
-    font-size: 16pt;
-  }
-  h6 {
-    font-size: 14pt;
-  }
-
-  body {
-    font-size: 10pt;
-  }
-
-  .post-title {
-    font-size: 13pt
-  }
-
-  .post-title > h2 {
-    font-size: 14pt;
-  }
-
-  .parallax-container {
-    height: 200px;
-
-  }
-  .parallax-container img {
-    max-width: 300%;
-  }
-
-}
-
-@media screen and (max-width: 405px) {
-
-  .privacypolicy {
-    margin-top: 5px;
-    left: calc(50% - 51.57px);
+  .menu{
+    padding: 10px;
+    width:auto;
+    border: 0;
   }
   
-  .main-point-header > h1 {
-    font-size: 26px;
+  .content{
+    border-top: 3px solid #663300;
+    overflow-y:inherit;
+    width:auto;
+    padding: 10px;
   }
-
-  .post-title > h2 {
-    font-size: 13pt;
+  .responsive_image{
+    background-size: 200%;
   }
-
-  .menu > ul {
-    margin-left: 10px;
-  }
-
-  .motto {
-    right: 10px;
-  }
-  .contact-me-and-motto-container {
-    width: calc(100% - 30px);
-    position: relative;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .contact-list-container {
-    bottom: 10px;
-  }
-
-  .post-ending {
-    margin-right: 10px;
-    margin-left: 10px;
-    width: calc(100% - 20px);
-  }
-
-  .sub-point-header-post > img {
-    width: 20px;
-  }
-
-  .main-point-header > img {
-    height: 30px;
-    margin-top: 5px;
-  }
-
-  .main-point-header > h1 {
-    font-size: 18pt;
-  }
-
-
-  .sub-point-header > h2, .sub-point-header > p {
-    font-size: 11pt;
-    margin-bottom: 8px;
-  }
-
-  .sub-point {
-    margin-left: 3vw;
-  }
-
-  .sub-point-content > h3 {
-    font-size: 11pt;
-
-  }
-  .sub-point-content {
-    margin-left: 30px;
-  }
-
-
-  h1 {
-    font-size: 22pt;
-  }
-  h2 {
-    font-size: 20pt;
-  }
-  h3 {
-    font-size: 18pt;
-  }
-  h4 {
-    font-size: 16pt;
-  }
-  h5 {
-    font-size: 14pt;
-  }
-  h6 {
-    font-size: 13pt;
-  }
-
-  body, p {
-    font-size: 12pt;
-  }
-
-
 }
