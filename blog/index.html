@@ -5,28 +5,20 @@ layout: page
 <h1>Blog Posts</h1>
 <hr style="margin-top:20px;margin-bottom:20px">
 
-{% if paginator.posts.size > 0 %}
+{% if site.posts.size > 0 %}
     There are {{paginator.posts | size}} posts:
 
-    {% for post in paginator.posts %}
-        {% include post_preview.html post=post %}
+    <ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{post.url}}" >
+                <h2 style="margin-bottom: 0.1em;display:flex"> {% if forloop.index==1 %}<div class="gif new"></div>{% endif %} {{post.title}}</h2></a> <h4 style="margin-bottom: 0.3em; margin-top:0px">{{post.date | date: "%d.%m.%y"}} </h3>
+                
+                    {{post.excerpt}}
+                
+        </li>
     {% endfor %}
-
-    <!-- Pagination links -->
-    <div style="display:flex;align-items:center;justify-content: center">
-        <div class="pagination">
-            <ul class="pagination justify-content-center">
-                <li class="page-item {% unless paginator.previous_page %}disabled{%endunless%}">
-                    <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1">Previous</a>
-                </li>
-                <li class="page-item disabled"><a class="page-link">{{ paginator.page }} of {{ paginator.total_pages }}</a>
-                </li>
-                <li class="page-item {% unless paginator.next_page %}disabled{%endunless%}">
-                    <a class="page-link" href="{{ paginator.next_page_path }}">Next</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    </ul>
 {% else %}
 There are no blog post yet! Come back soon to find some!
 {% endif %}

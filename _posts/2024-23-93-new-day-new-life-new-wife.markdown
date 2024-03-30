@@ -13,9 +13,8 @@ description: Something new
 ogdescription: Something new
 excerpt_separator: <!--more-->
 ---
-Let's see..
+Let's see... Let's let the nostalgia river flow and see how to 'retrofit' these pages into old school
  <!--more-->
-
-![eyes](/assets/img/my_eyes.gif)
+<div class = "gif eyes"></div>
 
 

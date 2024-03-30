@@ -6,7 +6,14 @@ layout: page
 # Welcome!
 
 This is my website! It It has been made with **jekyll**, a good ammount of time, and delivered through **github pages**! 
-{% include parallaximage.html image='/assets/img/code-background.webp'%}
+
+<div 
+    style="background-image:
+           url('/assets/img/code-background.webp'); 
+    background-size:100% ;       
+    width:100%; 
+    height: 400px; 
+    background-position:center;"></div>
 ## What is this all about?
 I have come across personal website in the past and always found them fascinating! As a computer engineer I could not resist the temptation to tinker around and build my own.
 
@@ -18,13 +25,22 @@ I, as stated above, am a computer engineer, love to tinker around. Built a coupl
 
 Besides working/studying and having these kinds of entertainment I have much more depth and enjoy spending time in different hobbies. 
 For instance you ~~can~~ **must** see the videos I made of my journeys around the globe (at least Europe for now) on my [Instagram account](https://www.instagram.com/steps.by.steps/channel/) ❤️
-
-{% include parallaximage.html image='/assets/img/tree2.webp'%} 
+ 
+<div 
+    style="background-image:
+           url('/assets/img/tree2.webp'); 
+    background-size:100% ;       
+    width:100%; 
+    height: 400px; 
+    background-position:center;"></div>
 ## What about the Blog
 It's a Blog!
 
 
 
 
-(I am just adding stuff so you can enjoy the parallax of the images above)
+(I am just adding stuff so you can enjoy the parallax of the images above 
+(which got removed after the refactoring ![eyes](/assets/img/my_eyes.gif)
+))
+
 <br><br><br><br>

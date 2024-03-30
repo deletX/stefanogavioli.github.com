@@ -30,13 +30,37 @@
   height: 15px ;
 }
 
+.gif.previous{
+  background-image: url(/assets/img/prev.gif);
+  width: 100px ;
+  height: 30px ;
+}
+
+.gif.next{
+  background-image: url(/assets/img/next.gif);
+  width: 100px ;
+  height: 30px ;
+}
+
+.gif.new{
+  background-image: url(/assets/img/new04.gif);
+  width: 32px ;
+  height: 24px ;
+}
+
+.gif.eyes{
+  background-image: url(/assets/img/my_eyes.gif);
+  width: 24px ;
+  height: 13px ;
+}
+
 a {
   word-wrap: break-word;
 }
 
 .header {
-  background-color: #2D71B8;
-  color: black;
+  background-color: #339900;
+  color: #CCFFCC;
   height: 15%;
   width: 100%;
   position: relative;
@@ -49,7 +73,9 @@ a {
 }
 
 .site-pic{
-  width:100px;
+  height:100%; 
+  width:auto; 
+  transform: rotate(90deg)
 }
 
 .container{
@@ -66,12 +92,13 @@ a {
   flex-direction: row;
   align-items: center;
   height: 100%;
-  width: 40%;
-  justify-content: space-around;
+  width: 50%;
+  justify-content: flex-start;
 }
 
 .name{
   font-size: 2.3em;
+  margin-left: 100px;
 }
 
 
@@ -105,13 +132,14 @@ a {
 }
 
 .menu {
-  height: 85%;
+  height: 100%;
   width: 20%;
   position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding:20px;
+  padding: 0px 20px 0px;
+  border-right: 3px solid #663300;
 }
 
 .blog_list{
@@ -126,11 +154,26 @@ label {
   width: 100%;
   position:relative;
   display: flex;
+  height:85%;
 }
 
 .content{
   width:80%;
   padding: 0px 10px 0px;
+  overflow-y: scroll;
+  max-height:100%;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
+.pagination > li{
+  margin-left:30px;
 }
 
 .site_holder{

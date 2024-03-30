@@ -1,0 +1,19 @@
+<hr style="margin-bottom:20px; margin-top:20px">
+<div class="post-ending">
+  <span>
+    From
+  </span>
+  <div style="margin: 0px 5px" class="gif euflag"></div>
+  <span>
+    with love
+  </span>
+  <div style="margin: 0px 15px 0px 5px" class="gif heart"></div>
+  {% if page.categories %}
+  <span>
+    Categories:
+    {% for category in page.categories %}
+      - <a href="/category/{{ category }}">#{{category}}</a>
+    {% endfor %} -
+  </span>
+  {% endif %}
+</div>
