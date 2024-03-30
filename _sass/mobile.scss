@@ -24,7 +24,7 @@
   }
 
   .main{
-    height:100%;
+    height:auto;
     flex-direction: column;
   }
 
@@ -32,6 +32,7 @@
     padding: 10px;
     width:auto;
     border: 0;
+    height:auto;
   }
   
   .content{

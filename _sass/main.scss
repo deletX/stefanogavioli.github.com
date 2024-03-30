@@ -77,6 +77,9 @@ a {
   width:auto; 
   transform: rotate(90deg)
 }
+.gif{
+  max-width:100%;
+}
 
 .container{
   margin: 10px auto;
@@ -204,7 +207,7 @@ label {
 
 p {
   font-weight: 400;
-  color: #050B10;
+  color: #111111;
 }
 
 h1, h2, h3, h4 {
