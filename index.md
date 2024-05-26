@@ -3,7 +3,12 @@ title: Stefano Gavioli
 permalink : /
 layout: page
 ---
-# Welcome!
+<div style="display:flex">
+    <span>
+    <h1> Welcome! </h1>
+    </span>
+    <div class="gif plane"></div>
+</div>
 
 This is my website! It It has been made with **jekyll**, a good ammount of time, and delivered through **github pages**! 
 
@@ -26,13 +31,8 @@ For instance you ~~can~~ **must** see the videos I made of my journeys around th
     style="background-image:
            url('/assets/img/tree2.webp');" class="responsive_image"></div>
 ## What about the Blog
-It's a Blog!
+It's a Blog! I first used it somewhat as a portfolio, with material design, responsiveness, and what not, some js with stuff. It was cool and fun making it, and it served it purpose for a while (being learning something with somewhat a purpose). After coming back a few times, I thought to 'renovate' it with a 'brand new' look, again, to have some fun and make it fun to browse. After all, nice links, filling bars, parallax images, responsiveness look smooth and all, but lack personality. They are no fun to watch if the style is _pretty much_ always the same, innit?
 
-
-
-
-(I am just adding stuff so you can enjoy the parallax of the images above 
-(which got removed after the refactoring ![eyes](/assets/img/my_eyes.gif)
-))
-
+So I thought of something, more personal, more vibrant, more fun! And, in a wave of nostalgia, what better design would it be if not the Late 90s/early 2ks websites, with less colors to chose from, less fonts, more gifs, more fun.
+See [this](/blog/life/2024/03/23/new-day-new-life-new-site.html) blog post fore more details
 <br><br><br><br>

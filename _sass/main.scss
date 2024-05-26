@@ -1,59 +1,3 @@
-.gif.heart{
-  background-image: url(/assets/img/0heart.gif);
-  height: 32px;
-  width: 32px;
-  margin: 0px 10px;
-}
-
-.gif.euflag{
-  background-image: url(/assets/img/Europe-021.gif);
-  height: 29px;
-  width: 40px;
-  display: inline;
-}
-
-.gif.underconstruction{
-  background-image: url(/assets/img/underconstruction.gif);
-  height: 105px;
-  width: 356px;
-}
-
-.gif.email{
-  background-image: url(/assets/img/email.gif);
-  width: 107px ;
-  height: 35px ;
-}
-
-.gif.confused{
-  background-image: url(/assets/img/confused.gif);
-  width: 37px ;
-  height: 15px ;
-}
-
-.gif.previous{
-  background-image: url(/assets/img/prev.gif);
-  width: 100px ;
-  height: 30px ;
-}
-
-.gif.next{
-  background-image: url(/assets/img/next.gif);
-  width: 100px ;
-  height: 30px ;
-}
-
-.gif.new{
-  background-image: url(/assets/img/new04.gif);
-  width: 32px ;
-  height: 24px ;
-}
-
-.gif.eyes{
-  background-image: url(/assets/img/my_eyes.gif);
-  width: 24px ;
-  height: 13px ;
-}
-
 a {
   word-wrap: break-word;
 }
@@ -232,7 +176,8 @@ h1, h2, h3, h4 {
 
 hr {
   opacity: 1;
-  color: #333333
+  background-color: #c03;
+  height: 2px;
 }
 
 
@@ -268,8 +213,8 @@ body{
   margin: 0px
 }
 
-  body {
-    font-size : 1em;
+body {
+    font-size : .9em;
 }
 
 .responsive_image{
@@ -277,4 +222,13 @@ body{
     width:100%; 
     height: 400px; 
     background-position:center;
+}
+
+.cv_table_position{
+  width:250px;
+}
+
+
+.cv_table_position_reduced{
+  width:290px;
 }

@@ -22,7 +22,7 @@ title: Stefano Gavioli
 email: stefano@stefanogavioli.eu
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Sito personale di Stefano Gavioli
+  Stefano Gavioli's personal website :)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stefanogavioli.eu" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -33,7 +33,7 @@ plugins:
 #  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-locale: it_IT
+locale: en_US
 
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
 
