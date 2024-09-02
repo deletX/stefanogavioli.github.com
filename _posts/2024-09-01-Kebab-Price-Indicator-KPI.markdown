@@ -9,8 +9,8 @@ title:  "KPI: Kebab Price Indicator"
 date:   2024-09-02 16:49:00 +0200
 
 categories: life excel
-description: New economic indicator, the Kebab Price Indicato "KPI"
-ogdescription: New economic indicator, the Kebab Price Indicato "KPI"
+description: New economic indicator, the Kebab Price Indicator "KPI"
+ogdescription: New economic indicator, the Kebab Price Indicator "KPI"
 excerpt_separator: <!--more-->
 ---
 
