@@ -79,8 +79,8 @@ Are you ready to make a difference? Join the Kebab Price Indicator (KPI) initiat
 
 // set the dimensions and margins of the graph
 const margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = Math.min(document.documentElement.clientWidth,460)- margin.left - margin.right,
+    height = Math.min(document.documentElement.clientWidth,400) - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3.select("#my_dataviz")
