@@ -2,7 +2,7 @@
 layout: post
 
 ogtype: article
-ogimage: /assets/img/excel-powerbi-tb.png
+ogimage: /assets/img/kebab.webp
 
 
 title:  "KPI: Kebab Price Indicator"
