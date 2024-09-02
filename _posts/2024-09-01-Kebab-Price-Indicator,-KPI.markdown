@@ -42,8 +42,8 @@ Are you ready to make a difference? Join the Kebab Price Indicator (KPI) initiat
         <option value="CHF">CHF</option>
         <option value="Other <please put your currency here>">Other, please put it in the email, sorry I'm lazy</option>
     </select>
-    <label for="type">Type: </label>
-    <input  id="type" type="text" placeholder="Type of doner" onKeyUp="sendEmail()">
+    <label for="date">Date: </label>
+    <input  id="date" type="date" onchange="sendEmail()">
     <label for="location">Location: </label>
     <textarea id="location" placeholder="where from?" onKeyUp="sendEmail()"></textarea>
 
@@ -65,10 +65,11 @@ Are you ready to make a difference? Join the Kebab Price Indicator (KPI) initiat
         var link = document.getElementById('send_email');
         var price = document.getElementById('price').value;
         var currency = document.getElementById('currency').value;
-        var type = document.getElementById('type').value;
+        var date = document.getElementById('date').value;
         var location = document.getElementById('location').value;
-        var subject = "KPI contribution from " + location;
-        var message = "Hello, I'm happy to contribute to the KPI initiative. Here's my experience |Type: " + type + "| Price: " + price + "| From: " + location + "| Kind regards -- "
+        var dateObj = new Date(date)
+        var subject = "KPI contribution from " + location + ", " + (dateObj.getMonth()+1) + "-"+dateObj.getFullYear();
+        var message = "Hello, I'm happy to contribute to the KPI initiative. Here's my experience |Date: " + date + "| Price: " + price + "| From: " + location + "| Kind regards -- "
         var email = "stefano@stefanogavioli.eu";
         var href = "mailto:" + email + "?subject=" + subject + "&body=" + message;
         link.setAttribute("href", href);
