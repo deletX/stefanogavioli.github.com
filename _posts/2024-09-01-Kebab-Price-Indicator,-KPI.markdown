@@ -18,7 +18,7 @@ Introducing the Kebab Price Indicator!
 <div class="gif chart" style="float:left"></div>
 The Kebab Price Indicator (_KPI_) is a groundbreaking economic measure designed to provide a unique perspective on the overall health of a nation's economy, particularly its consumer confidence and purchasing power. By tracking the price fluctuations of kebabs, a popular and affordable food item, the KPI offers a more nuanced understanding of economic trends compared to traditional indicators like GDP or inflation rates.
 <!--more-->
-![kebab with stock in background](/assets/img/kebab.webp){:style="float:right; width:350px; margin:1em"}
+![kebab with stock in background](/assets/img/kebab.webp){:style="float:right; width:250px; margin:1em"}
 Unlike traditional economic indicators, which often focus on broad macroeconomic factors, the KPI provides a granular view of consumer behavior at the grassroots level. Kebabs, as a widely consumed and affordable food item, serve as a reliable barometer of consumer purchasing power. When people are hesitant to spend on kebabs, it suggests a general decline in consumer confidence and a potential economic downturn, often accompanied by rising inflation. This is because as inflation rises, the purchasing power of consumers decreases, making it more difficult to afford everyday items like kebabs. Conversely, an increase in kebab prices or demand can indicate a thriving economy with rising consumer spending, but it's important to consider inflation rates. If kebab prices are rising due to inflation, it may not necessarily indicate a strong economy, as consumers may be spending more on the same quantity of goods and services.
 
 The KPI's simplicity and accessibility make it a valuable tool for policymakers, economists, and investors alike. By monitoring changes in kebab prices over time, policymakers can identify early warning signs of economic instability and adjust their policies accordingly. Economists can use the KPI to refine their models and gain a deeper understanding of consumer behavior. Investors can leverage the KPI to make more informed decisions about their portfolios, as it can provide insights into the overall economic outlook and potential market trends.
@@ -52,7 +52,7 @@ Are you ready to make a difference? Join the Kebab Price Indicator (KPI) initiat
     </div>
 </div>
 
-<div class="tenor-gif-embed" data-postid="26581555" data-share-method="host" data-aspect-ratio="1.01911" data-width="345px" style="float:left"><a href="https://tenor.com/view/gusto-ko-to-gif-26581555">Gusto Ko To GIF</a>from <a href="https://tenor.com/search/gusto+ko+to-gifs">Gusto Ko To GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<div class="tenor-gif-embed" data-postid="26581555" data-share-method="host" data-aspect-ratio="1.01911" data-width="330px"><a href="https://tenor.com/view/gusto-ko-to-gif-26581555">Gusto Ko To GIF</a>from <a href="https://tenor.com/search/gusto+ko+to-gifs">Gusto Ko To GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 [^1]: ["I want to introduce a new economic measure, named KPI, Kebab Price Indicator, write a paragraph introducing it" prompt.](https://g.co/gemini/share/a1b478fb2e5c)
     Gemini, Google, 2 September 2024,
@@ -79,8 +79,8 @@ Are you ready to make a difference? Join the Kebab Price Indicator (KPI) initiat
 <script>
 
 // set the dimensions and margins of the graph
-const margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = Math.min(document.documentElement.clientWidth,460)- margin.left - margin.right,
+const margin = {top: 10, right: 60, bottom: 30, left: 60},
+    width = Math.min(document.documentElement.clientWidth,1300)- margin.left - margin.right,
     height = Math.min(document.documentElement.clientWidth,400) - margin.bottom;
 
 // append the svg object to the body of the page
