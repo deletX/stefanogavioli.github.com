@@ -24,8 +24,8 @@ At first I decided to have just my curriculum (which you can check it out [here!
 ## Me
 I, as stated above, am a computer engineer, love to tinker around. Built a couple of apps, a handful of websites and played around with an arduino a bit.
 
-Besides working/studying and having these kinds of entertainment I have much more depth and enjoy spending time in different hobbies. 
-For instance you ~~can~~ **must** see the videos I made of my journeys around the globe (at least Europe for now) on my [Instagram account](https://www.instagram.com/steps.by.steps/channel/) ❤️
+<div><span>Besides working/studying and having these kinds of entertainment I have much more depth and enjoy spending time in different hobbies. 
+For instance you <del>can</del> <strong>must</strong> see the videos I made of my journeys around the globe (<del>at least Europe for now</del> got to VN </span><div class="gif vn"></div><span> on Oct/24 and was amazing!) on my <a href="https://www.instagram.com/steps.by.steps/channel/">Instagram account</a> ❤️</span></div>
  
 <div 
     style="background-image:
