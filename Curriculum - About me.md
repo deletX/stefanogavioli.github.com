@@ -20,27 +20,35 @@ Hi! I'm Stefano (if you hadn't already guessed as by that big text above) and he
 
 
 <h2> Professional Experiences <div class="gif pcboy"></div> </h2>
- - **Swisslog** 
-    - Designed an developed complex software solutions related to small (autostore grid) to big warehouses (pallet and lightgoods solutions with automated and manual mixed case palletizing), with many different intralogistic processes. Focusing on usability and maintainability. 
-    - Worked in international contexts in small (~3) to medium (~20) groups
+ - **Swisslog** - *Nov 18 - Present*
+    - Designed and developed complex software solutions related to small (e.g. autostore) to big warehouses (pallet and lightgoods solutions with automated and manual mixed case palletizing), with different interconnected intralogistic processes. Focusing on **usability**, **maintainability** and **customer-value**. 
+    - Worked in **international** contexts in small (~3) to medium (~20) **multi-cultural** groups 
     - Technologies:
-        - J2EE
+        - **Java**
+        - J2EE, JSF
         - AppServers: Weblogic, Wildfly
         - DB: Oracle, Sqlserver
-    - <table><tr><td class="cv_table_position"><i>Senior Software Engineer</i></td><td> <u>Mar 23 - Present</u></td></tr></table>
+        - Elasticsearch, Kibana
+    - Tools:
+        - Eclipse (ew), IntelliJ IDEA (nice), Visual Studio
+        - Docker
+        - git, svn
+    - <table><tr><td class="cv_table_position"><b>Senior Software Engineer - ACPaQ Competence Center</b></td><td> <u>July 24 - Present</u></td></tr></table>
+        - Contributed to, mentored and supported [ACPaQ](https://www.swisslog.com/en-us/products-systems-solutions/picking-palletizing-order-fulfillment/robot-based-robotics-fully-automated/mixed-case-palletizing-acpaq) projects across EMEA, ensuring knowledge and best-practices sharing alongside reducing required effort by prompoting *reusable components*
+    - <table><tr><td class="cv_table_position"><i>Senior Software Engineer</i></td><td> <u>Mar 23 - July 24</u></td></tr></table>
     - <table><tr><td class="cv_table_position"><i>Software Engineer</i></td><td> <u>Jun 21 - Mar 23</u></td></tr></table>
     - <table><tr><td class="cv_table_position"><i>Software Engineer Intern</i></td><td> <u>Nov 18 - Jun 19</u></td></tr></table>
 
 <h2>Education <div class="gif book"></div> </h2>
  - <div><table><tr><td class="cv_table_position_reduced"><b>MSc in Computer Engineering</b></td><td> <u>2018 - 2021</u></td></tr></table>Universita' degli studi di Modena e Reggio Emilia</div>
- - <div><table><tr><td class="cv_table_position_reduced"><b>BSc in Computer Engineering</b></td><td> <u>2015 - 2018</u></td></tr></table>Universita' degli studi di Modena e Reggio Emilia</div>
+ - <div><table><tr><td class="cv_table_position_reduced"><i>BSc in Computer Engineering</i></td><td> <u>2015 - 2018</u></td></tr></table>Universita' degli studi di Modena e Reggio Emilia</div>
 
 <h2> Projects <div class="gif hammer"></div> </h2>
  - **Drivers Manager Project**: An application built on Django for the backend and React for the frontend aimed at optimizing ride sharing amongst a group of people, which is a variation of the TSP, using an algorithm developed by a friend for his BSc in Computer Engineering - <a href="https://github.com/deletX/DM-Project">Github</a>
  - **This website :)**
 
 ## Personal Activities
- - _Political Activities in Modena_
+ - _Activism in Modena_
  - _Events organization_
 
 ## Additional 
