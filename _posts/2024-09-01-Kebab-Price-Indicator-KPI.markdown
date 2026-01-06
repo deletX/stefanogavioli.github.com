@@ -58,7 +58,7 @@ Are you ready to make a difference? Join the Kebab Price Indicator (KPI) initiat
     Gemini, Google, 2 September 2024,
     [https://gemini.google.com/](https://gemini.google.com/)
 
-[^2]: <div style="display: flex;flex-direction: row;justify-content: flex-start;align-items: center;"><span>also this cta was made with Gemini </span> <div class = "gif ieEvil" style="margin-left: 10px"></div><div>
+[^2]: <div style="display: flex;flex-direction: row;justify-content: flex-start;align-items: center;"><span>also this cta was made with Gemini </span> <img src = "/assets/img/ie_evil.gif" style="margin-left: 10px"/><div>
 
 <script>
     function sendEmail() {
