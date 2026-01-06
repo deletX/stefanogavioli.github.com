@@ -14,7 +14,7 @@ This is my website! It It has been made with **jekyll**, a good ammount of time,
 
 <div 
     style="background-image:
-           url('/assets/img/code-background.webp'); " class="responsive_image"></div>
+           url('/assets/img/code-background-r.webp'); " class="responsive_image"></div>
 ## What is this all about?
 I have come across personal website in the past and always found them fascinating! As a computer engineer I could not resist the temptation to tinker around and build my own.
 
@@ -29,7 +29,7 @@ For instance you <del>can</del> <strong>must</strong> see the videos I made of m
  
 <div 
     style="background-image:
-           url('/assets/img/tree2.webp');" class="responsive_image"></div>
+           url('/assets/img/tree2-r.bmp');" class="responsive_image"></div>
 ## What about the Blog
 It's a Blog! I first used it somewhat as a portfolio, with material design, responsiveness, and what not, some js with stuff. It was cool and fun making it, and it served it purpose for a while (being learning something with somewhat a purpose). After coming back a few times, I thought to 'renovate' it with a 'brand new' look, again, to have some fun and make it fun to browse. After all, nice links, filling bars, parallax images, responsiveness look smooth and all, but lack personality. They are no fun to watch if the style is _pretty much_ always the same, innit?
 

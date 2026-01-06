@@ -1,0 +1,84 @@
+body {
+    font-family: serif;
+    font-size: 1em;
+    background-color: silver;
+    margin: 8px;
+
+}
+.post-ending::before {
+    content:"From Europe with Love <3"
+}
+
+.post-ending * {
+    display:none
+}
+
+.post-ending {
+    font-style:italic;
+    margin-left: 0px
+}
+
+//override required by display being already defined 
+.gif.euflag {
+    display: none
+}
+
+hr {
+    background-color: default;
+    height: auto;
+}
+
+.content > h6{
+    display:none
+}
+
+
+.main {
+    width: auto;
+    position: inherit;
+    display: inherit;
+    height: auto;
+}
+
+.menu {
+    display: none
+}
+
+.content {
+    width: inherit;
+    padding: inherit;
+    overflow-y: auto;
+    max-height: inherit;
+}
+
+.header {
+    background-color: teal;
+    color: white;
+    position: inherit;
+    display: inherit;
+    padding: 8px;
+    width: initial;
+}
+
+.site-pic{
+    display:none;
+}
+
+.name-and-pic-container {
+    display: inherit
+}
+
+.name {
+    margin-left: 0px;
+}
+
+.site_holder {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+}
+
+.motto { 
+    font-family: serif;
+    font-style: italic;
+}
