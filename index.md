@@ -7,7 +7,7 @@ layout: page
     <span>
     <h1> Welcome! </h1>
     </span>
-    <div class="gif plane"></div>
+    <img src="/assets/img/plane.gif" style="height:50px"/>
 </div>
 
 This is my website! It It has been made with **jekyll**, a good ammount of time, and delivered through **github pages**! 
@@ -25,7 +25,7 @@ At first I decided to have just my curriculum (which you can check it out [here!
 I, as stated above, am a computer engineer, love to tinker around. Built a couple of apps, a handful of websites and played around with an arduino a bit.
 
 <div><span>Besides working/studying and having these kinds of entertainment I have much more depth and enjoy spending time in different hobbies. 
-For instance you <del>can</del> <strong>must</strong> see the videos I made of my journeys around the globe (<del>at least Europe for now</del> got to VN </span><div class="gif vn"></div><span> on Oct/24 and was amazing!) on my <a href="https://www.instagram.com/steps.by.steps/channel/">Instagram account</a> ❤️</span></div>
+For instance you <del>can</del> <strong>must</strong> see the videos I made of my journeys around the globe (<del>at least Europe for now</del> got to VN </span><img src="/assets/img/vn.gif"/><span> on Oct/24 and was amazing!) on my <a href="https://www.instagram.com/steps.by.steps/channel/">Instagram account</a> ❤️</span></div>
  
 <div 
     style="background-image:

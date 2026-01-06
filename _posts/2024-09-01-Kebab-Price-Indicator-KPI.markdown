@@ -14,8 +14,8 @@ ogdescription: New economic indicator, the Kebab Price Indicator "KPI"
 excerpt_separator: <!--more-->
 ---
 
-Introducing the Kebab Price Indicator! 
-<div class="gif chart" style="float:left"></div>
+Introducing the **Kebab Price Indicator**! 
+<img src="/assets/img/chart.gif" style="float:left"/>
 The Kebab Price Indicator (_KPI_) is a groundbreaking economic measure designed to provide a unique perspective on the overall health of a nation's economy, particularly its consumer confidence and purchasing power. By tracking the price fluctuations of kebabs, a popular and affordable food item, the KPI offers a more nuanced understanding of economic trends compared to traditional indicators like GDP or inflation rates.
 <!--more-->
 ![kebab with stock in background](/assets/img/kebab.webp){:style="float:right; width:250px; margin:1em"}

@@ -12,7 +12,7 @@ layout: page
     {% for post in site.posts %}
         <li>
             <a href="{{post.url}}" >
-                <h2 style="margin-bottom: 0.1em;display:flex"> {% if forloop.index==1 %}<div class="gif new"></div>{% endif %} {{post.title}}</h2></a> <h4 style="margin-bottom: 0.3em; margin-top:0px">{{post.date | date: "%d.%m.%y"}} </h3>
+                <h2 style="margin-bottom: 0.1em;display:flex"> {% if forloop.index==1 %}<img src="/assets/img/new04.gif"/>{% endif %} {{post.title}}</h2></a> <h4 style="margin-bottom: 0.3em; margin-top:0px">{{post.date | date: "%d.%m.%y"}} </h3>
                 
                     {{post.excerpt}}
                 
