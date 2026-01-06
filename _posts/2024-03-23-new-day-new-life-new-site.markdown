@@ -27,7 +27,10 @@ So I thought of something, more personal, more vibrant, more fun! And, in a wave
 ---
 ## Version 1.0
 Didn't take any pictures, whopsie! 
-<div class = "gif sorry"></div>
+
+
+<img src="/assets/img/sorry.gif"/>
+
 ---
 ## Version 2.0
 This is the home page after first revision. I know it isn't supposed to be responsive, but it's _easier_ to have it done in css rather than build two different websites as it used to be, like a "m" subdomain.
@@ -40,8 +43,11 @@ This is the home page after first revision. I know it isn't supposed to be respo
 ### Sources
 
 I've extensively looked in the web (_duh_) for inspiration. [Webdesignmuseums.org](https://www.webdesignmuseum.org/) has been of great help, same as the WayBack Machine of [Internet Archive](https://archive.org/). Last but not least, I have used [gifcities](https://gifcities.org/) to browse for wonderful in-style gifs to put everywhere. 
-<div class = "gif eyes"></div>
-<br>
-<div class = "gif explorer"></div>
+
+
+<img src="/assets/img/my_eyes.gif"/>
+
+
+<img src="/assets/img/explorer1.gif"/>
 
 

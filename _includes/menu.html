@@ -8,7 +8,7 @@
             {% for post in site.posts %}
                 <li>
                     <a style="display:flex" href="{{post.url}}" >
-                        {% if forloop.index==1 %}<div class="gif new"></div>{% endif %} {{post.date | date: "%d.%m.%y"}} {{post.title}} </a>
+                        {% if forloop.index==1 %}<img src="/assets/img/new04.gif"/>{% endif %} {{post.date | date: "%d.%m.%y"}} {{post.title}} </a>
                 </li>
             {% endfor %}
             </ul>

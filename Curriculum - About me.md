@@ -16,7 +16,7 @@ headerincludes: <meta property="profile:first_name" content="Stefano" /> <meta p
 ---
 
 # Curriculum Vitae
-Hi! I'm Stefano (if you hadn't already guessed as by that big text above) and here's something about me:
+Hi! I'm (if you hadn't already guessed as by that big text above) owner of this website and here's something about me:
 
 
 <h2> Professional Experiences <img src="/assets/img/pcboy.gif"/> </h2>
@@ -27,7 +27,7 @@ Hi! I'm Stefano (if you hadn't already guessed as by that big text above) and he
         - **Java**
         - J2EE, JSF
         - AppServers: Weblogic, Wildfly
-        - DB: Oracle, Sqlserver
+        - DB: SQL (Oracle, Sqlserver)
         - Elasticsearch, Kibana
     - Tools:
         - Eclipse (ew), IntelliJ IDEA (nice), Visual Studio
@@ -45,7 +45,7 @@ Hi! I'm Stefano (if you hadn't already guessed as by that big text above) and he
 
 <h2> Projects <img src="/assets/img/hammer.gif"/> </h2>
  - **Drivers Manager Project**: An application built on Django for the backend and React for the frontend aimed at optimizing ride sharing amongst a group of people, which is a variation of the TSP, using an algorithm developed by a friend for his BSc in Computer Engineering - <a href="https://github.com/deletX/DM-Project">Github</a>
- - **This website :)**
+ - **This website :-)**~
 
 ## Personal Activities
  - _Activism in Modena_
@@ -68,8 +68,8 @@ Hi! I'm Stefano (if you hadn't already guessed as by that big text above) and he
 
 ## Interests
 <ul>
-  <li><em>Music <img src="/assets/img/notes.gif"/></em>: I play the French Horn and the Piano. Love music in general, and I often go the theater to see operas or ballets. </li>
-  <li><em>Gardening <img src="/assets/img/garden.gif"/></em>: I love tending to my plants, care for them. I like nature in general :)</li>
-  <li><em>Travelling <img src="/assets/img/planeCv.gif"/></em>: I love travel, and flying in particular. I like discovering new things and to learn about new places and cultures.</li>
-  <li><em>Video Making<img src="/assets/img/video.gif"/></em>: I enjoy filming, making, videos. I try to get the opportunities especially during my travelling to capture some footage and to build some short video out of.</li>
+  <li><em>Music <img src="/assets/img/dancingnotes2.gif"/></em>: I play the French Horn and the Piano. Love music in general, and I often go the theater to see operas or ballets. </li>
+  <li><em>Gardening <img src="/assets/img/gardening2.gif"/></em>: I love tending to my plants, care for them. I like nature in general :)</li>
+  <li><em>Travelling <img src="/assets/img/plane.gif"/></em>: I love travel, and flying in particular. I like discovering new things and to learn about new places and cultures.</li>
+  <li><em>Video Making<img src="/assets/img/motorcycle.gif"/></em>: I've recently picked up motorcycling, enjoying freedom while taking time for myself exploring surroudnings and (hopefully in the near future) some trips</li>
 </ul>

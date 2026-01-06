@@ -20,10 +20,10 @@ I have several connection issues recently. My connection would drop for several 
 
 <!--more-->
 
-<div class = "gif search"></div>
+<img src="/assets/img/lens.gif"/>
 
 _uh..._ 
 
-<div class = "gif confused"></div>
+<img src="/assets/img/confused.gif"/>
 
 Seems it has been lost to time :(
